@@ -1,2 +1,3 @@
 # problem-solving-solutions
-this repo is meant for problem solving questions and their solutions.
+this repo is meant for problem solving questions and their solutions. 
+all questions will be found on leetcode.
