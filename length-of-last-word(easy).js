@@ -29,3 +29,16 @@ var lengthOfLastWord = function (s) {
   split = s.trim().split(" ");
   return split.pop().length; // remove the .length to get the last word.
 };
+
+//  ------------------------------------ solution 2
+
+var lengthOfLastWord2 = function (s) {
+  length = 0;
+  i = s.length - 1;
+  while (i >= 0 && s[i] == " ") i -= 1;
+  while (i >= 0 && s[i] != " ") {
+    length += 1;
+    i -= 1;
+  }
+  return length;
+};
