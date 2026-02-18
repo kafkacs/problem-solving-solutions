@@ -80,7 +80,5 @@ function merge(nums1, m, nums2, n) {
     firstOfTwo += 1;
   }
 
-  nums1 = Array.from(result);
-
   return result;
 }
